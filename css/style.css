@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {margin: 0;padding: 0;}
+h1,h2,h3{text-transform: uppercase;font-weight: bold;}
+h1{font-size: 100px; letter-spacing: 8px;color:#F2F2F2}
+
+body, html{
+    font-family: 'Oswald', sans-serif;  
+}
+
+#home{ 
+    height: 600px;
+    background-image: url(https://picsum.photos/id/26/1200/800);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#home .home-content{
+    padding-left:10%;
+    padding-top:10%;
+}
+#home .home-content h1{
+    letter-spacing: 15px;
+    font-size: 60px;
+}
+#work-content, #skill-content,#contact-content{
+    background-color: #F2F2F2;
+}
+#work-content h1, #skill-content h1, #contact-content h1{
+    color: #FFFFFF;
+}
+#get-in-touch{
+    width: 100%;
+    height: 80px;
+}
+.exp-title::after {
+    content: "";
+    margin-top: 5px;
+    display: block; 
+    width: 3rem; 
+    border-bottom: 2px solid #0DCAF0; 
+}
+#about-image, .header-wrap, .main-wrap{
+    padding: 0;
+}

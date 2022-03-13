@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebApp Architect</title>
+    <link rel="icon" href="https://dummyimage.com/30x30/000/fff">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/a4838034d0.js" crossorigin="anonymous"></script>
+
+    <!-- All stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="row">
+       <div class="header-wrap col-md-2">
+        <header>
+            <nav id="navbar-targeting" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                <a class="navbar-brand mx-auto" href="#"> <img src="https://picsum.photos/id/454/120/80" alt="" > </a>
+                <a class="nav-link text-center my-2 text-info border-bottom" href="#home"><span class="d-block"><i class="fa-solid fa-house-chimney"></i></span> Home</a>
+                <a class="nav-link text-center my-2 text-info border-bottom" href="#about"><span class="d-block"><i class="fa-solid fa-user"></i></span> About</a>
+                <a class="nav-link text-center my-2 text-info border-bottom" href="#work"><span class="d-block"><i class="fa-solid fa-briefcase"></i></span>Work</a>
+                <a class="nav-link text-center my-2 text-info border-bottom" href="#experiance"><span class="d-block"><i class="fa-solid fa-lightbulb"></i></span>Experiance</a>
+                <a class="nav-link text-center my-2 text-info border-bottom" href="#skill"><span class="d-block"><i class="fa-solid fa-chart-column"></i></span>Skills</a>
+                <a class="nav-link text-center my-2 text-info border-bottom" href="#client"><span class="d-block"><i class="fa-solid fa-heart"></i></span>Clients</a>
+                <a class="nav-link text-center my-2 text-info border-bottom" href="#contact"><span class="d-block"><i class="fa-solid fa-phone"></i></span>Contact</a>
+            </nav>
+        </header>
+       </div>
+       <div class="main-wrap col-md-10">
+        <main>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-targeting" data-bs-offset="0" tabindex="0">
+              <!-- Banner Section -->
+                <div id="home" >
+                    <div class="home-content">
+                        <h1 class="text-white text-uppercase fw-bolder lh-sm">clear thinking <span class="d-block">made visual</span></h1>
+                        <h6 class="text-white text-uppercase my-4">mahbub noyon. <span>fullstack developer</span></h6>
+                        <a href="#about" class="btn btn-info py-2 px-4" role="button">Learn More <i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                </div>
+
+                <!-- About Section -->
+                <div id="about" data-bs-target="#home" class="row ">
+                    <div id="about-content" class="col-md-7 py-5 px-5">
+                        <h1 class="">About</h1>
+                        <h3 class="py-3">Inspired by different</h3>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem tempora ullam et optio natus dicta doloribus nemo expedita esse.</h5>
+                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, qui porro repellat cum, tempore sunt dolorem quaerat aliquam repellendus ad quia pariatur eaque. Doloribus, aut deserunt repellendus, fugit necessitatibus est suscipit ratione impedit eos perferendis ut! Iste dolores minus temporibus.</p>
+                        <a href="#work" class="btn btn-info py-2 px-4" role="button">Work <i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                    <div id="about-image" class="col-md-5">
+                        <img class="img-fluid" src="https://picsum.photos/800/1200" alt="">
+                    </div>
+                </div>
+
+                <!-- Work section -->
+                <div id="work" data-bs-target="#about" class="row">
+                    <div id="work-content" class="col-md-7 py-5 px-5">
+                         <h1>work</h1>
+                         <h3 class="py-3">recent projects</h3>
+                         <div class="row g-3  "> 
+                            <img src="https://picsum.photos/150" alt="" class="img-fluid col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/150" alt="" class="img-fluid col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/150" alt="" class="img-fluid col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/150" alt="" class="img-fluid col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/150" alt="" class="img-fluid col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/150" alt="" class="img-fluid col-md-6 col-lg-4">
+                         </div>
+                         <a href="#experiance" class="btn btn-info my-5 py-2 px-4" role="button">Link Button <i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                    <div id="about-image" class="col-md-5">
+                        <img class="img-fluid" src="https://picsum.photos/800/1200" alt="">
+                    </div>
+                </div>
+
+                <!-- Experiance Section -->
+                <div id="experiance" data-bs-target="#work" class="row">
+                    <div id="experiance-content" class="col-md-7 py-5 px-5">
+                        <h1>Work<span class="d-block">skills.</span></h1>
+                        <h3 class="py-3">GREAT DESIGN MATTERS.</h3>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, odio totam consequuntur ex facere iste ducimus quia obcaecati commodi consequatur.</h5>
+                        <h3 class="exp-title fs-6 pt-2">1. Frontend</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, quae corporis. Voluptatem voluptatibus explicabo placeat eius! Veritatis cupiditate aspernatur inventore.</p>
+                        <h3 class="exp-title fs-6 pt-2">1. Frontend</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, quae corporis. Voluptatem voluptatibus explicabo placeat eius! Veritatis cupiditate aspernatur inventore.</p>
+                        <h3 class="exp-title fs-6 pt-2">1. Frontend</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, quae corporis. Voluptatem voluptatibus explicabo placeat eius! Veritatis cupiditate aspernatur inventore.</p>
+                        <a href="#skill" class="btn btn-info my-4 py-2 px-4" role="button">Link Button <i class="fa-solid fa-angle-down"></i></a>
+                       
+                    </div>
+                    <div id="about-image" class="col-md-5">
+                        <img class="img-fluid" src="https://picsum.photos/800/1200" alt="">
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div id="skill" data-bs-target="#experiance" class="row">
+                    <div id="skill-content" class="col-md-7 bg-stone-100 py-5 px-5">
+                        <h1>Skills</h1>
+                        <h3 class="py-3">RESULTS DRIVEN DESIGN.</h3>
+                        <h5 class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore perspiciatis quis fugiat voluptatem veniam rerum eum dolorem rem assumenda?</h5>
+                        <div>
+                            <p class="mb-0 mt-3">HTML/CSS</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                              </div>
+                              <p class="mb-0 mt-3">HTML/CSS</p>
+                              <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                              </div>
+                              <p class="mb-0 mt-3">HTML/CSS</p>
+                              <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                              </div>
+                              <p class="mb-0 mt-3">HTML/CSS</p>
+                              <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                              </div>
+                        </div>
+                        <h5 class="pt-5">THE USER MUST COME FIRST.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo hic necessitatibus modi ratione? Accusantium suscipit hic architecto nobis dolorem.</p>
+                        <a href="#client" class="btn btn-info my-4 py-2 px-4" role="button">Link Button <i class="fa-solid fa-angle-down"></i> </a>                       
+                    </div>
+                    <div id="about-image" class="col-md-5">
+                        <img class="img-fluid" src="https://picsum.photos/800/1200" alt="">
+                    </div>                  
+                </div>
+
+                <!-- Clients Section -->
+                <div id="client" data-bs-target="#skill" class="row">
+                    <div id="client-content" class="col-md-7 py-5 px-5">
+                        <h1>Clients</h1>
+                        <h3 class="py-3">MAKE A DIFFERENCE.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, soluta.</p>
+                        <div class="row gy-5">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/150" alt="">
+                                <p class="text-center">Jesica</p>
+                            </div>
+                            <div class="col-md-9"><p class="fst-italic p-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio deserunt, eius itaque quod non sed! Lorem, <br> ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt blanditiis cum incidunt a nam molestiae in unde impedit dicta!"</p></div>
+                        </div>
+                        <div class="row gy-5">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/150" alt="">
+                                <p class="text-center">Jesica</p>
+                            </div>
+                            <div class="col-md-9"><p class="fst-italic p-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio deserunt, eius itaque quod non sed! Lorem, <br> ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt blanditiis cum incidunt a nam molestiae in unde impedit dicta!"</p></div>
+                        </div>
+                        <div class="row gy-5">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/150" alt="">
+                                <p class="text-center">Jesica</p>
+                            </div>
+                            <div class="col-md-9"><p class="fst-italic p-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio deserunt, eius itaque quod non sed! Lorem, <br> ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt blanditiis cum incidunt a nam molestiae in unde impedit dicta!"</p></div>
+                        </div>
+                        <a href="#" class="btn btn-info my-4 py-2 px-4" role="button">Link Button <i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                    <div id="about-image" class="col-md-5">
+                        <img class="img-fluid" src="https://picsum.photos/800/1200" alt="">
+                    </div> 
+                </div>
+                <!-- Get in touch -->
+                <div id="get-in-touch" class="text-center bg-info pt-3"><a class="fs-4 text-white text-uppercase text-decoration-none" href="#contact"> Get In Touch <i class="fa-solid fa-angle-down"></i></a></div>
+                <!-- Contact Section -->
+                <div id="contact" data-bs-target="#get-in-touch" class="row">
+                    <div id="contact-content" class="col-md-7 py-5 px-5">
+                        <h1>Contact</h1> 
+                        <h3 class="py-3">let's talk</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quibusdam deleniti nemo quis mollitia fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur inventore accusamus eum, facilis dolor accusantium!</p>
+                        <div class="contact-form">
+                             <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Your Name">
+                                <label for="floatingInput">Your Name*</label>
+                              </div>
+                              <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingPassword" placeholder="name@example.com">
+                                <label for="Your Email">Your Email*</label>
+                              </div>
+                              <div class="form-floating">
+                                <textarea class="form-control" placeholder="Write your text" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Write Here</label>
+                              </div>
+                              <button type="submit" class="btn btn-info mt-2 py-2 px-4">Submit</button>
+                        </div>                    
+                    </div>
+                    <div id="about-image" class="col-md-5">
+                        <img class="img-fluid" src="https://picsum.photos/800/1200" alt="">
+                    </div> 
+                </div>
+              </div>
+        </main>
+        <!-- Footer Section -->
+        <footer class="d-flex justify-content-between align-items-center">
+            <div class="footer-text py-4">
+                <p>Copy right 2022. All rights reserved <a class="text-info text-decoration-none" href="https://webapparchitect.com/">WebApp Architect</a></p>
+            </div>
+            <div class="social-icon pe-5">
+                <button style="padding: 0px !important;" type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
+                    <a class="text-info" href="#" style="font-size: 35px; letter-spacing:10px;"><i class="fa-brands fa-linkedin"></i></a>
+                </button>               
+                <button style="padding: 0px !important;" type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
+                    <a class="text-info" href="#" style="font-size: 35px; letter-spacing:10px;"><i class="fa-solid fa-envelope"></i></a>
+                </button>               
+                <button style="padding: 0px !important;" type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
+                    <a class="text-info" href="#" style="font-size: 35px; letter-spacing:10px;"><i class="fa-brands fa-github-square"></i></a>
+                </button>               
+                <button style="padding: 0px !important;" type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
+                    <a class="text-info" href="#" style="font-size: 35px; letter-spacing:10px;"><i class="fa-brands fa-facebook-square"></i></a>
+                </button>               
+            </div>
+        </footer>
+       </div> 
+    </section>
+    
+
+
+
+    <!-- Js codes -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/code.js"></script>
+</body>
+</html>
