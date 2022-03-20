@@ -6,9 +6,12 @@ h1{font-size: 100px; letter-spacing: 8px;color:#F2F2F2}
 body, html{
     font-family: 'Oswald', sans-serif;  
 }
+.header-wrap{position:fixed;}
+.main-wrap{margin-left: 16%;}
+#about, #work, #experiance, #skill, #client, #contact{margin: 0;}
 
 #home{ 
-    height: 600px;
+    height: 100vh;
     background-image: url(https://picsum.photos/id/26/1200/800);
     background-size:cover;
     background-repeat: no-repeat;
